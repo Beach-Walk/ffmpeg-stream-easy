@@ -28,9 +28,11 @@ Start streaming media files via UDP using ffmpeg. Setting are specifically optim
 
 ## To Build & Run (assuming you have Py3)
 1. Download ZIP or clone repository 
-  - Uncompress the ZIP
+    - Uncompress the ZIP
 2. Open terminal in udp-stream-easy directory and run:
     - python3 main.py
-  ## To Do
+## Common Issues
+ - Sometimes VLC multicast playback wont work correctly. To fix, disable VM interfaces (VMware, VirtualBox)
+## To Do
   - More customizability 
   - Cleanup
