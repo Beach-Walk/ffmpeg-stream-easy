@@ -1,0 +1,1 @@
+Converted files will be placed here. Additionally, all files in this folder will be streamed by FFmpeg.
