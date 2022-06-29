@@ -1,5 +1,5 @@
 # UDP Stream Easy
-Start streaming media files via UDP using ffmpeg. Script is specifically made for low power machines that cannot do live transcoding. 
+Start streaming media files via UDP using ffmpeg. Script is specifically made for low power machines that cannot do live transcoding. Playback tested on VLC
 
 ## Limitations
 - Exiting via CLI is troublesome
