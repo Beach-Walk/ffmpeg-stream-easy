@@ -2,7 +2,7 @@
 Start streaming media files via UDP using ffmpeg. Script is specifically made for low power machines that cannot do live transcoding. 
 
 ## Limitations
-
+- Exiting via CLI is troublesome
 
 ## Requirements
 - FFmpeg in PATH (FFmpeg should be usable from your terminal)
