@@ -1,5 +1,5 @@
 # UDP Stream Easy
-Start streaming media files via UDP using ffmpeg. Setting are specifically optimized for low power machines and VLC playback
+Start streaming media files via UDP using ffmpeg. Script is specifically made for low power machines that cannot do live transcoding. 
 
 ## Limitations
 
@@ -29,7 +29,8 @@ Start streaming media files via UDP using ffmpeg. Setting are specifically optim
 ## To Build & Run (assuming you have Py3)
 1. Download ZIP or clone repository 
     - Uncompress the ZIP
-2. Open terminal in udp-stream-easy directory and run:
+2. Add FFmpeg to PATH
+3. Open terminal in udp-stream-easy directory and run:
     - python3 main.py
 ## Common Issues
  - Sometimes VLC multicast playback wont work correctly. To fix, disable VM interfaces (VMware, VirtualBox)
