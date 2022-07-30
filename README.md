@@ -1,5 +1,5 @@
 # FFmpeg Stream Easy
-Start streaming media files via UDP using ffmpeg. Script is specifically made for low power machines that cannot do live transcoding. Playback tested on VLC
+Start streaming media files over IP via UDP using ffmpeg. Script is specifically made to make it easier to pretranscode video files for low power machines that cannot do live transcoding. Playback tested on VLC
 
 ## Limitations
 - Exiting via CLI is troublesome
@@ -10,7 +10,7 @@ Start streaming media files via UDP using ffmpeg. Script is specifically made fo
 ## How It Works
 - Pick an option
   - Stream media
-    - Stream will start based on options provided
+    - Stream will start based on options provided below
     - URL: Output URL for FFmpeg, this could be anything FFmpeg supports
       - ?pkt_size=1316: This is needed for VLC playback
       - ttl=13: This is for multiple multicast hops (optional if not using multicast)
